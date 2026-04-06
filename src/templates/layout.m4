@@ -50,5 +50,4 @@ m4_layout_body
 
 ]])
 
-m4_include([[src/templates/nav.m4]])
 m4_include([[src/templates/base.m4]])
