@@ -1,7 +1,7 @@
 m4_define([[m4_layout_body]], [[
 
 <h1>School</h1>
-<p>As a once prospective and now current undergrad, I've found pages like these helpful and interesting to read.</p>
+<p>As a once prospective and now current undergrad at CMU, I've found pages like these helpful and interesting to read.</p>
 <h2>Background</h2>
 <p>I'm a CS major (Class of 2029) with intended concentrations in computer systems and robotics.</p>
 <h2>Course Review, Fall 2025</h2>

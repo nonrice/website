@@ -1,6 +1,10 @@
 m4_define([[m4_base_body]], [[
 
 <div id="layout-container">
+
+<div id="layout-header">
+</div>
+
 <div id="layout-wrapper">
 
 <div id="layout-side">
@@ -14,6 +18,7 @@ m4_define([[m4_base_body]], [[
 <a href="index.html">Home</a><br>
 <a href="blog.html">Blog</a><br>
 <a href="school.html">School</a><br>
+<a href="credits.html">Credits</a>
 </div>
 </div>
 

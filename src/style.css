@@ -12,17 +12,17 @@
 }
 
 #layout-header {
-    margin: 10px auto 10px auto;
-    width: fit-content;
+    margin: 2px auto 2px auto;
+    height: 250px;
+    background-image: url("assets/banner1.png");
+    background-position: center;
+    background-repeat: no repeat;
 }
 
-#layout-header p {
-    font-family: "Roboto Mono", monospace;
-}
 
 #layout-container {
     max-width: 800px;
-    width: calc(100% - 20px);
+    width: calc(100% - 4px);
     margin-left: auto;
     margin-right: auto;
 }
@@ -189,11 +189,6 @@ h1, h2, h3, h4, h5, h6 {
 
     #layout-main {
         width: auto;
-    }
-
-    #layout-container {
-        margin: 0px;
-        width: 100%;
     }
 }
 
