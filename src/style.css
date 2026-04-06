@@ -107,14 +107,18 @@ h1, h2, h3, h4, h5, h6, p, li, ul, a {
     padding: 0px;
 }
 
-p, ul:not(:has(ul)) {
-    margin-bottom: 0.75rem !important;
+p, ul {
+    margin-bottom: 0.75rem;
 }
 
 ul {
-    margin: 0px;
     padding-left: 1.5rem;
 }
+
+ul ul {
+    margin: 0px;
+}
+
 
 a:hover {
     color: var(--color-bg);
