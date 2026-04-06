@@ -1,7 +1,13 @@
-define([[m4_layout_body]], [[
+m4_define([[m4_layout_body]], [[
 
-<h1>Hello friends</h1>
-<p>Something very important<p>
+<h1>Welcome!</h1>
+<p>
+Hi! I'm Eric from Northern Virginia ("NoVA"). Currently, I'm a computer science student at Carnegie Mellon.
+</p>
+<p>
+I like to play competitive modern Tetris, frisbee, and run long distance :)
+</p>
+
 
 ]])
-include([[src/templates/layout.m4]])
+m4_include([[src/templates/layout.m4]])
