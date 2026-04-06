@@ -12,13 +12,16 @@ $(SITE_NAME).zip: site
 	zip -r $(SITE_NAME).zip $(SITE_NAME)
 	rm $(SITE_NAME)
 
-public/%.html: src/%.m4 $(wildcard src/templates/*.m4)
+public:
+	mkdir -p public
+
+public/%.html: src/%.m4 $(wildcard src/templates/*.m4) | public
 	m4 -P src/templates/conf.m4 $< > $@
 
-public/style.css: src/style.css
+public/style.css: src/style.css | public
 	cp src/style.css public/style.css
 
-public/assets: $(wildcard src/assets/*)
+public/assets: $(wildcard src/assets/*) | public
 	rm -rf public/assets
 	cp -r src/assets public/assets
 
