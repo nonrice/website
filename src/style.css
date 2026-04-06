@@ -98,13 +98,17 @@ body {
     background-color: var(--color-bg);
 }
 
-h1, h2, h3, h4, h5, h6, p, li, a {
+h1, h2, h3, h4, h5, h6, p, li, ul, a {
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-style: normal;
     color: var(--color-fg);
     margin: 0px;
     padding: 0px;
+}
+
+p ul:not(:has(ul)) {
+    margin-bottom: 0.75rem !important;
 }
 
 ul {
@@ -122,9 +126,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 800;
 }
 
-p ul {
-    margin-bottom: 0.75rem;
-}
 
 .box-title {
     margin: 0px;
@@ -173,13 +174,3 @@ p ul {
     color: var(--color-gray);
 }
 
-
-
-
-/*
-h1, h2, h3, h4, h5, h6 {
-    background-color: var(--color-bg-hi);
-    padding: 5px 5px 0px 5px;
-    margin-bottom: 5px;
-    border-radius: 3px;
-}*/
