@@ -174,3 +174,17 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--color-gray);
 }
 
+@media (max-width: 500px) {
+    #layout-wrapper {
+        display: block;
+    }
+
+    #layout-side {
+        width: 100%;
+    }
+
+    #layout-main {
+        width: auto;
+    }
+}
+
