@@ -1,9 +1,16 @@
 SITE_NAME = dontwalkaway.nekoweb.org
 
+ifeq ($(shell uname), Darwin)
+    M4 := $(shell brew --prefix m4 2>/dev/null)/bin/m4
+else
+    M4 := m4
+endif
 
 .PHONY: site zip
 
 site: $(patsubst src/%.m4, public/%.html, public/style.css $(wildcard src/*.m4)) public/style.css public/assets
+
+
 
 zip: $(SITE_NAME).zip
 
@@ -16,7 +23,7 @@ public:
 	mkdir -p public
 
 public/%.html: src/%.m4 $(wildcard src/templates/*.m4) | public
-	m4 -P src/templates/conf.m4 $< > $@
+	$(M4) -P src/templates/conf.m4 $< > $@
 
 public/style.css: src/style.css | public
 	cp src/style.css public/style.css
