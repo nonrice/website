@@ -3,7 +3,8 @@ m4_define([[m4_base_body]], [[
 <div id="layout-container">
 
 <div id="layout-header">
-<code>What does he even do?</code>
+<code id="speech1">What the fucking<br> kind of website is this?</code>
+<code id="speech2">I don't fucking know.</code>
 </div>
 
 <div id="layout-wrapper">
@@ -31,7 +32,7 @@ m4_define([[m4_base_body]], [[
 
 <div class="box-content">
 <a href="https://github.com/nonrice">GitHub</a><br>
-<a href="https://ch.tetr.io/u/nonric2">TETR.IO</a>
+<a href="https://ch.tetr.io/u/nonric2">TETR.IO</a><br>
 </div>
 </div>
 
@@ -52,6 +53,13 @@ m4_layout_body
 
 </div>
 
+
+</div>
+</div>
+<div id="footer">
+<code>(c) 2026 dontwalkaway.nekoweb.org ~ <a href="mailto:widefin@gmail.com">Email</a></code>
+<a href="https://nekoweb.org/" class="button"><img src="https://nekoweb.org/assets/buttons/button11.gif"></a><!-- button by milkyway.moe -->
+</div>
 </div>
 
 ]])

@@ -2,9 +2,11 @@ m4_define([[m4_layout_body]], [[
 
 m4_h1([[Welcome!]])
 m4_p([[
-Hi! I'm Eric from Northern Virginia ("NoVA"). Currently, I'm a computer science student at Carnegie Mellon.
+Hi! I'm Eric from Northern Virginia ("NoVA").
 
-I like to play competitive modern Tetris, frisbee, and run long distance :)
+Currently, I'm a computer science student at Carnegie Mellon.
+
+I like to play competitive modern Tetris, frisbee, and run long distance.
 ]])
 
 ]])
