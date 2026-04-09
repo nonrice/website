@@ -1,3 +1,6 @@
+m4_post([[April 09, 2026, 12:00 AM]], [[
+/(\nabla f(\mathbf{x}) = (\mathrm{D}f(\mathbf{x}))^T/)
+]])
 m4_post([[April 08, 2026, 11:55 PM]], [[
 eriogjerigeahuriowijpfok
 ]])
