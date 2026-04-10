@@ -8,7 +8,7 @@ endif
 
 .PHONY: site zip
 
-site: $(patsubst src/%.m4, public/%.html, public/style.css $(wildcard src/*.m4)) public/style.css public/assets
+site: $(patsubst src/%.m4, public/%.html, $(wildcard src/*.m4)) public/style.css public/elements.css public/assets
 
 
 
@@ -29,6 +29,9 @@ public/blog.html: src/blog/contents2026.m4
 
 public/style.css: src/style.css | public
 	cp src/style.css public/style.css
+
+public/elements.css: src/elements.css | public
+	cp src/elements.css public/elements.css
 
 public/assets: $(wildcard src/assets/*) | public
 	rm -rf public/assets
