@@ -3,3 +3,5 @@ public
 .vimrc
 .*.swp
 tags
+.DS_Store
+

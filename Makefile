@@ -25,6 +25,8 @@ public:
 public/%.html: src/%.m4 $(wildcard src/templates/*.m4) | public
 	$(M4) -P src/templates/conf.m4 $< > $@
 
+public/blog.html: src/blog/contents2026.m4
+
 public/style.css: src/style.css | public
 	cp src/style.css public/style.css
 

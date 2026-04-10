@@ -5,8 +5,8 @@ m4_define([[m4_p]], [[m4_dnl
 <p>]])</p>m4_dnl
 ]])
 
-m4_define([[m4_a]], [[
-<a href="$1">$2</a>
+m4_define([[m4_a]], [[m4_dnl
+<a href="$1">$2</a>m4_dnl
 ]])
 
 m4_define([[m4_h1]], [[

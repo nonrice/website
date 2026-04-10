@@ -4,7 +4,11 @@ m4_define([[m4_layout_body]], [[
 <p>As a once prospective and now current undergrad at CMU, I've found pages like these helpful and interesting to read.</p>
 <h2>Background</h2>
 <p>I'm a CS major (Class of 2029) with intended concentrations in computer systems and robotics.</p>
-<h2>Course Review, Fall 2025</h2>
+m4_h2([[Fall 2025]])
+m4_p([[
+For my first semester, I didn't really learn anything new in terms of CS. Though I do think the math here is taught much better than it was at my high school.
+]])
+m4_h3([[Courses]])
 <ul>
 <li>15-122: Principles of Imperative Computation
 <ul>
@@ -31,6 +35,6 @@ m4_define([[m4_layout_body]], [[
 </ul>
 </li>
 </ul>
-<p>For my first semester, I didn't really learn anything new in terms of CS. Though I do think the math here is taught much better than it was at my high school. </p>
 ]])
+m4_include([[src/templates/writing.m4]])
 m4_include([[src/templates/layout.m4]])
